@@ -11,7 +11,7 @@
 
 template <typename T>
 struct matrix {
-	T** data = nullptr; //[column][row]
+	T** data = nullptr; //[row][column]
 	uint64_t height;
 	uint64_t width;
 
